@@ -83,7 +83,6 @@ Class Action {
 		$chk = $this->db->query("SELECT * FROM user_info where email = '$email' ")->num_rows;
 		if($chk > 0){
 			return 2;
-			exit;
 		}
 			$save = $this->db->query("INSERT INTO user_info set ".$data);
 		if($save){
