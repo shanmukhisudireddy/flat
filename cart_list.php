@@ -60,7 +60,7 @@
 								</div>
 			        		</div>
 			        		<div class="col-md-4 text-right">
-			        			<b><large><?php echo number_format($row['qty'] * $row['price'],2) ?></large></b>
+			        			<b><?php echo number_format($row['qty'] * $row['price'],2) ?></b>
 			        		</div>
 		        		</div>
 	        		</div>
